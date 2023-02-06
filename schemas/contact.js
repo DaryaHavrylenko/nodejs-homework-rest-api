@@ -9,8 +9,4 @@ const schemaContacts = Joi.object({
   phone: Joi.number().positive().required(),
 });
 
-// const updateFavoriteSchema = Joi.object({
-//   favorite: Joi.bool().required(),
-// });
-
 module.exports = schemaContacts;
