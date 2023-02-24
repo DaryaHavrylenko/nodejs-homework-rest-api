@@ -1,3 +1,5 @@
 const getCurrent = require("./getCurrent");
 const updateSubscription = require("./updateSubscription");
-module.exports = { getCurrent, updateSubscription };
+const updateAvatar = require("./updateAvatar");
+
+module.exports = { getCurrent, updateSubscription, updateAvatar };
