@@ -4,6 +4,7 @@ const {
   schemaSignUpUser,
   schemaLogInUser,
   updateSubscription,
+  schemaVarifyEmail,
 } = require("./user");
 module.exports = {
   schemaContacts,
@@ -11,4 +12,5 @@ module.exports = {
   schemaSignUpUser,
   schemaLogInUser,
   updateSubscription,
+  schemaVarifyEmail,
 };

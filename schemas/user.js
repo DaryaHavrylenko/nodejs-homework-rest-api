@@ -13,5 +13,12 @@ const schemaLogInUser = Joi.object({
 const updateSubscription = Joi.object({
   subscription: Joi.string().valid("starter", "pro", "business").required(),
 });
-
-module.exports = { schemaSignUpUser, schemaLogInUser, updateSubscription };
+const schemaVarifyEmail = Joi.object({
+  email: Joi.string().required(),
+});
+module.exports = {
+  schemaSignUpUser,
+  schemaLogInUser,
+  updateSubscription,
+  schemaVarifyEmail,
+};
